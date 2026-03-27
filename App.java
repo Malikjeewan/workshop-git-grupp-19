@@ -1,3 +1,4 @@
+// Simple console calculator
 public class App {
     static void run(){
         System.out.pirntln("1) Add\n2)subtract\n3) Multiply\n0) Divide\n0) Exit");
