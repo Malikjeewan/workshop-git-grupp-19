@@ -1,3 +1,4 @@
+/** Returbs the difference of a and b. */
 public class Calculator {
 
     public static double sub(double a, double b) {
