@@ -136,3 +136,5 @@ http-client.private.env.json
 
 
 .idea/
+
+*.class
