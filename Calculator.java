@@ -1,3 +1,6 @@
 public class Calculator {
-    public static double sub(double a, double b) { return a - b;}
+    public static double sub(double a, double b) {
+        return a - b;
+    }
+    public static double mul(double a, double b) { return a * b;}
 }
