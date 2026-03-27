@@ -1,6 +1,7 @@
 // Simple console calculator
 public class App {
-    static void run(){
+    static void start(){
+        // Entry point logic
         System.out.pirntln("1) Add\n2)subtract\n3) Multiply\n0) Divide\n0) Exit");
 System.out.println(Calculator.add(a , b));
         String choice = new java.util.Scanner(System.in).nextLine();
@@ -12,6 +13,8 @@ System.out.println(Calculator.add(a , b));
                 if("4".equals(choice)) System.out.println(Calculator.div(a,b));
                 if ("4".equals(choice) && b == 0) System.out.println("Error: division by zero");
                 if ("4".equals(choice) && b != 0) System.out.println(calculator.div(a,b));
-
+        Public static void main(String[]args){
+            start();
+        }
     }
 }
