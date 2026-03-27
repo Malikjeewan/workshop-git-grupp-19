@@ -4,4 +4,5 @@ public class App {
         Sytem.out.println("Your choice:");
         String choice = new java.util.Scanner(System.in).nextLine();
         if("1".equals(choice)) System.out.println(calculator.add(0,0));
+        double a=Double.parseDouble(new java.util.Scanne(System.in).nextLine());
 }
