@@ -8,7 +8,9 @@ System.out.println(Calculator.add(a , b));
                 double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
 
                 if ("2".equals(choice)) System.out.println(calculator.sub(a,b));
+
                 if ("4".equals(choice) && b == 0) System.out.println("Error: division by zero");
                 if ("4".equals(choice) && b != 0) System.out.println(calculator.div(a,b));
+
     }
 }
