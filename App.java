@@ -13,6 +13,8 @@ System.out.println(Calculator.add(a , b));
 
                 if ("4".equals(choice) && b == 0) System.out.println("Error: division by zero");
                 if ("4".equals(choice) && b != 0) System.out.println(calculator.div(a,b));
-
+        Public static void main(String[]args){
+            start();
+        }
     }
 }
