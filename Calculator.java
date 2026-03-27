@@ -1,7 +1,7 @@
 public class Calculator {
-
-    public static double sub(double a, double b) {
-        return a - b;
+    /**Returns the sum of a and b. */
+    public static double add(double a, double b) {
+        return a + b;
     }
     public static double mul(double a, double b) { return a * b;}
 
